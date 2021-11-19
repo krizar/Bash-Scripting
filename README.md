@@ -1,5 +1,6 @@
 # Bash-Scripting
 Actividades de aprendizaje de Bash para actividades de administración.
+
 #!/bin/bash
 <command>
 if [ $? -eq 0 ]; then
