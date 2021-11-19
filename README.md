@@ -2,11 +2,17 @@
 Actividades de aprendizaje de Bash para actividades de administración.
 
 #!/bin/bash
+
 <command>
+
 if [ $? -eq 0 ]; then
-   echo OK
+
+	echo OK
+
 else
-   echo FAIL
+
+	echo FAIL
+
 fi
 
 
