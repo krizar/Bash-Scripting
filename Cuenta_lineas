@@ -1,0 +1,7 @@
+mapfile -t lag < <(cat findme.txt)
+for ((i = 0 ; i < 100 ; i++)); do 
+     if [ $i -eq $1 ]; then
+         echo  "${lag[i]}"
+         exit 
+     fi  
+done
