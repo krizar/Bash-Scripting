@@ -12,7 +12,7 @@ telnet mail.kauil.com.mx 26 -l pruebas@kauil.com.mx <<EOF
 MAIL FROM: prueba@kauil.com.mx
 RCPT TO: $1
 DATA
-SUBJET: $2
+SUBJECT: $2
 $3
 .
 quit
